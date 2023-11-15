@@ -6,3 +6,7 @@ hashGenerator function:This function takes a 'data' parameter, encodes it using 
 'Blockchain' class:This class represents the blockchain itself. It has an '__init__' method that initializes the blockchain with a single genesis block containing some default data. The chain attribute holds the list of blocks in the blockchain.
                     The 'add_block' method is used to add new blocks to the blockchain. It calculates the new block's hash based on the input data and the previous block's hash. Then, it creates a new 'Block' object and appends it to the 'chain'.
  Creating and using the blockchain:     Here, an instance of the 'Blockchain class '(bc) is created, and three blocks with different data are added to the blockchain.                    Finally, it iterates through the blocks in the blockchain and prints the attributes of each block using 'print(block._dict_)'. Note that there's a typo here; it should be 'print(block.__dict__)' to print the attributes of the block.
+
+
+
+![Pvt blockchain ss](https://github.com/Sakshi0774/Private-Blockchain/assets/150219068/c88f2fc3-0599-4196-8228-fedaad80c83e)
